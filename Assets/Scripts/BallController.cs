@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BallController : MonoBehaviour {
 
-	public float force = 50f;
+	public float force = 500f;
 
 	void Update () {
 		float horizontalMove = Input.GetAxis ("Horizontal");

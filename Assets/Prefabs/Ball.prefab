@@ -22,7 +22,7 @@ GameObject:
   - 212: {fileID: 212000011105657618}
   - 50: {fileID: 50000013760971270}
   - 58: {fileID: 58000011607715156}
-  - 114: {fileID: 114000010567008154}
+  - 114: {fileID: 114000012907087542}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Player
@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013926672810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.476734, y: 2.3267174, z: -5}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalPosition: {x: 0.28, y: 6.35, z: -5}
+  m_LocalScale: {x: 3.7843482, y: 3.7843482, z: 0.7568696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -51,10 +51,10 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013926672810}
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDrag: 0
-  m_AngularDrag: 0.01
-  m_GravityScale: 1
+  m_AngularDrag: 0.05
+  m_GravityScale: 5
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -68,13 +68,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1000013926672810}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8be6341e1ce3f4cec9902bc34f72d20a, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.09
---- !u!114 &114000010567008154
+--- !u!114 &114000012907087542
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -82,10 +82,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013926672810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5beb666919c65ad42b5acfc8b6155e3e, type: 3}
+  m_Script: {fileID: 11500000, guid: f0deada9d3805174189b9b4562bc074d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  force: 500
 --- !u!212 &212000011105657618
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -116,6 +116,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0, g: 1, b: 0.91764706, a: 1}
+  m_Color: {r: 1, g: 0.59999996, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
