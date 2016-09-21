@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7362df5b00d19c8418c9208c4a19f612
+timeCreated: 1474468372
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Flynn
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 21051ebbaef4c9949a49ba49d9d2435d, type: 3}
+  - {fileID: 12800000, guid: 015f11dbc7eede74e9edb91afdb2c3fd, type: 3}
+  - {fileID: 12800000, guid: 4981ad5c96a96e44fa5dde55ce7fc960, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

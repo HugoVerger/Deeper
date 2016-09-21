@@ -45,6 +45,8 @@ public class GameManager : MonoBehaviour {
 					GameObject camera = GameObject.Find ("Main Camera");
 					MoveCamera moveCamera = camera.GetComponent<MoveCamera> ();
 					moveCamera.enabled = false;
+
+					Handheld.Vibrate ();
 				} else if (levelFailed) {
 					gameState = gameStates.FailLevel;
 
