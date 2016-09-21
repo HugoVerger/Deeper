@@ -41,6 +41,10 @@ public class GameManager : MonoBehaviour {
 
 					// switch which GUI is showing			
 					beatLevelCanvas.SetActive (true);
+
+					GameObject camera = GameObject.Find ("Main Camera");
+					MoveCamera moveCamera = camera.GetComponent<MoveCamera> ();
+					moveCamera.enabled = false;
 				} else if (levelFailed) {
 					gameState = gameStates.FailLevel;
 
@@ -49,6 +53,12 @@ public class GameManager : MonoBehaviour {
 
 					// switch which GUI is showing
 					failLevelCanvas.SetActive (true);
+					
+					GameObject camera = GameObject.Find ("Main Camera");
+					MoveCamera moveCamera = camera.GetComponent<MoveCamera> ();
+					moveCamera.enabled = false;
+
+				Handheld.Vibrate ();
 				}
 				break;
 			case gameStates.BeatLevel:
@@ -78,6 +88,6 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void failLevel() {
-		levelFailed = true;		
+		levelFailed = true;
 	}
 }
