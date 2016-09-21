@@ -53,12 +53,12 @@ public class GameManager : MonoBehaviour {
 
 					// switch which GUI is showing
 					failLevelCanvas.SetActive (true);
-					
+							
 					GameObject camera = GameObject.Find ("Main Camera");
 					MoveCamera moveCamera = camera.GetComponent<MoveCamera> ();
 					moveCamera.enabled = false;
 
-				Handheld.Vibrate ();
+					Handheld.Vibrate ();
 				}
 				break;
 			case gameStates.BeatLevel:
