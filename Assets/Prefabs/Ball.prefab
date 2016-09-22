@@ -21,9 +21,9 @@ GameObject:
   - 4: {fileID: 4000010214936408}
   - 212: {fileID: 212000011105657618}
   - 50: {fileID: 50000013760971270}
-  - 58: {fileID: 58000011607715156}
   - 114: {fileID: 114000012907087542}
   - 96: {fileID: 96000014203863624}
+  - 58: {fileID: 58000010749243810}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Player
@@ -38,8 +38,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013926672810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.09, y: 5.93, z: -5}
-  m_LocalScale: {x: 3.7843482, y: 3.7843482, z: 0.7568696}
+  m_LocalPosition: {x: -2.5, y: 6, z: -5}
+  m_LocalScale: {x: 0.375, y: 0.375, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -61,7 +61,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!58 &58000011607715156
+--- !u!58 &58000010749243810
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -74,7 +74,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.085
+  m_Radius: 1.18
 --- !u!96 &96000014203863624
 TrailRenderer:
   m_ObjectHideFlags: 1
@@ -104,22 +104,22 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Time: 0.35
-  m_StartWidth: 0.4
+  m_Time: 0.195
+  m_StartWidth: 0.5
   m_EndWidth: 0
   m_Colors:
     m_Color[0]:
       serializedVersion: 2
-      rgba: 3372220415
+      rgba: 16777215
     m_Color[1]:
       serializedVersion: 2
-      rgba: 2533359615
+      rgba: 16777215
     m_Color[2]:
       serializedVersion: 2
-      rgba: 1694498815
+      rgba: 2533359615
     m_Color[3]:
       serializedVersion: 2
-      rgba: 855638015
+      rgba: 1275068415
     m_Color[4]:
       serializedVersion: 2
       rgba: 16777215
@@ -167,7 +167,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0, g: 0.7931032, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: ab9a7f00c426f9f4d809d1bd390b05e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

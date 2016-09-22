@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour {
 			case gameStates.FailLevel:
 				backgroundMusic.volume -= 0.01f;
 				if (backgroundMusic.volume<=0.0f) {
-					AudioSource.PlayClipAtPoint (failLevelSFX,gameObject.transform.position,0.5f);
+					AudioSource.PlayClipAtPoint (failLevelSFX,gameObject.transform.position,30f);
 
 					gameState = gameStates.GameOver;
 				}
